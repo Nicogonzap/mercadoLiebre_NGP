@@ -1,0 +1,17 @@
+head {
+    background-color: #EAC926;
+}
+#yellow-header {
+    background-color: #EAC926;
+    align-items: stretch;
+}
+body{
+    padding:0;
+    margin:0;
+}
+#buscador {
+    align-items: center;
+}
+.color-del-menu-hamburguesa{
+    background-color: #0044AA;
+}
