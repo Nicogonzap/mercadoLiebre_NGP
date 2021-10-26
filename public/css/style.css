@@ -1,17 +1,60 @@
-head {
-    background-color: #EAC926;
+* {
+    box-sizing: border-box;
 }
-#yellow-header {
+header {
     background-color: #EAC926;
-    align-items: stretch;
+    margin-bottom: 1rem;
 }
+
 body{
     padding:0;
     margin:0;
+    font-family: 'Roboto', sans-serif;;
 }
 #buscador {
     align-items: center;
 }
-.color-del-menu-hamburguesa{
+
+.titular {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 0.75rem;
+}
+.precio {
+    font-size: 1.125rem;
+}
+.descuentos {
+    font-size: 1rem;
+}
+.descripciones {
+    font-size: 1rem;
+}
+.burger-menu{
+    text-align: center;
+}
+.burger-menu i {
+    color: white;
     background-color: #0044AA;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+.search-icon {
+    background-color: white;
+    padding:0.1rem;
+    border: solid black 0.1rem;
+    border-radius: 0.25rem;
+
+}
+
+.footer-note {
+    text-align: center;
+}
+.footer-note i {
+    color: #0044AA;
+    font-size: 3rem;
+}
+.promocion-tarjeta {
+    text-align: center;
 }
